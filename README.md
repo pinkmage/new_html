@@ -8,16 +8,16 @@
 ##页面结构##
 整个网页由主页以及五个子页面组成，子页面分别介绍了加基森的三大家族：暗金教（kabal.html）、玉莲帮（lotus.html）、污手党（kabal.html）和海盗势力（pirate.html），并且我的个人介绍（ho.html）也以子页面的形式存在。
 ##技术指标##
-* 浏览器兼容：兼容IE，谷歌，火狐等主流浏览器
-* html：html5
-* css：css3
-* 开发工具：SublimeText3，火狐浏览器，microsoft edge浏览器，photoshop
+浏览器兼容：兼容IE，谷歌，火狐等主流浏览器
+html：html5
+css：css3
+开发工具：SublimeText3，火狐浏览器，microsoft edge浏览器，photoshop
 
 ---
 ##技术点##
-* 轮播图：位于主页的轮播图，使用ul建立了列表，并将每张图片用li做成每个列表，然后用css对其进行修饰，两侧的按钮也用css进行实现。动态效果则使用xSlider.jsh这款jquery轮播图插件进行实现。
-* 返回顶部：在五个子页面当中，由于用了大量的图片，使得页面很长，所以添加了返回顶部的按钮。用button元素制作了按钮，在css中用animation制作返回顶部按钮出现时的CSS动画效果，然后又使用了gototop这个jquery插件。
-* 背景音乐：在主页中添加了BGM，在html中使用了audio标签，通过controls="controls" hidden="hidden" autoplay="autoplay" loop="loop"使得音乐可以自动地一直播放，并且隐藏了控制按钮。
+轮播图：位于主页的轮播图，使用ul建立了列表，并将每张图片用li做成每个列表，然后用css对其进行修饰，两侧的按钮也用css进行实现。动态效果则使用xSlider.jsh这款jquery轮播图插件进行实现。
+返回顶部：在五个子页面当中，由于用了大量的图片，使得页面很长，所以添加了返回顶部的按钮。用button元素制作了按钮，在css中用animation制作返回顶部按钮出现时的CSS动画效果，然后又使用了gototop这个jquery插件。
+背景音乐：在主页中添加了BGM，在html中使用了audio标签，通过controls="controls" hidden="hidden" autoplay="autoplay" loop="loop"使得音乐可以自动地一直播放，并且隐藏了控制按钮。
 
 ---
 ##开发心得##
